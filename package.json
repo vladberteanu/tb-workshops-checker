@@ -1,0 +1,37 @@
+{
+  "name": "talentbuddy",
+  "version": "0.0.16",
+  "description": "Talentbuddy Workshops",
+  "preferGlobal": true,
+  "bin": {
+    "talentbuddy": "bin/talentbuddy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Talentbuddy"
+  },
+  "dependencies": {
+    "cli": "~0.6.5",
+    "request": "~2.51.0",
+    "async": "~0.9.0",
+    "jsonfile": "~2.0.0",
+    "rimraf": "~2.2.8",
+    "path": "~0.11.14",
+    "download": "~3.3.0",
+    "analytics-node": "~1.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Talentbuddy/talentbuddy/issues"
+  },
+  "main": "bin/talentbuddy.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "talentbuddy",
+    "coding"
+  ],
+  "author": "Talentbuddy <team@talentbuddy.co> (https://www.talentbuddy.co/workshops)",
+  "license": "GNU GPL v3.0"
+}
